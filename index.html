@@ -6,12 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jaka to sigma?</title>
     <meta name="description" content="sigma">
-    <!--  -->
-    <link rel="styleshhet" href="style/index.css">
+    <link rel="stylesheet" href="style/index.css">
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <img src="https://th.bing.com/th/id/OIP.OGBt6MQAWgcEX2w1vx2nXQAAAA?rs=1&pid=ImgDetMain"
+                alt="Tech3malboerk Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="#">Usługi</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main class="container">
+        <section class="content">
+            <h1>Jaka to skibidi sigma?</h1>
+            <p>Twoja wygrana: <span id="cash">0 zł</span></p>
+            <button id="playButton" class="btn-primary">Odtwórz fragment (3/3)</button>
+            <audio id="audioPlayer" src=""></audio>
+
+            <div class="input-group">
+                <input type="text" id="songInput" class="input-text" placeholder="Wpisz tytuł piosenki">
+                <button id="submitButton" class="btn-primary">Sprawdź</button>
+            </div>
+
+            <p id="result"></p>
+            <button id="exitButton" class="btn-secondary">Wychodzę</button>
+        </section>
+
+        <aside id="history" class="history">
+            <h3>Historia transakcji</h3>
+            <ul id="transaction-list">
+                <!-- Example transactions -->
+                <li>Wygrałeś 10 zł</li>
+                <li>Wygrałeś 20 zł</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tech3malbork. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="javascript/music-handler.js"></script>
 </body>
 
 </html>

@@ -72,8 +72,8 @@ const songs = [
 		longer_audio: '',
 	},
 	{
-		title: 'uciekajmy_z_wyspy',
-		full_title: 'Uciekajmy z wyspy',
+		title: 'ucieklismy_z_wyspy',
+		full_title: 'Ucieklismy z wyspy',
 		short_audio: 'audio/ucieklismy_z_wyspy.mp3',
 		longer_audio: '',
 	},
